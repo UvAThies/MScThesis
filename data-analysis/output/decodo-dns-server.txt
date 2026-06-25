@@ -1,0 +1,12 @@
+% Top 5 requestors during Decodo
+\begin{table}[h]\n\centering\n\begin{tabular}{llrll}\n\hline\nRank & Source IP & Requests & ASN & Organization \\\n\hline\n1 & 104.23.171.71 & 121 & 13335 & Cloudflare, Inc. \\
+2 & 104.23.167.71 & 115 & 13335 & Cloudflare, Inc. \\
+3 & 104.23.173.72 & 107 & 13335 & Cloudflare, Inc. \\
+4 & 172.71.93.209 & 106 & 13335 & Cloudflare, Inc. \\
+5 & 104.23.169.34 & 105 & 13335 & Cloudflare, Inc. \\
+6 & 162.159.112.71 & 104 & 13335 & Cloudflare, Inc. \\
+7 & 141.101.75.33 & 99 & 13335 & Cloudflare, Inc. \\
+8 & 145.100.96.11 & 89 & 1103 & SURF B.V. \\
+9 & 172.71.97.143 & 81 & 13335 & Cloudflare, Inc. \\
+10 & 172.71.97.142 & 76 & 13335 & Cloudflare, Inc. \\
+\hline\n\end{tabular}\n\caption{Top 5 requestors during Decodo.}\n\label{tab:top5-decodo}\n\end{table}\n\n

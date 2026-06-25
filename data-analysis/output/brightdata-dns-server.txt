@@ -1,0 +1,12 @@
+% Top 5 requestors during Bright Data
+\begin{table}[h]\n\centering\n\begin{tabular}{llrll}\n\hline\nRank & Source IP & Requests & ASN & Organization \\\n\hline\n1 & 92.53.92.36 & 1721 & 49505 & JSC Selectel \\
+2 & 92.53.92.34 & 787 & 49505 & JSC Selectel \\
+3 & 92.53.92.35 & 779 & 49505 & JSC Selectel \\
+4 & 165.232.116.76 & 246 & 14061 & DigitalOcean, LLC \\
+5 & 104.23.173.72 & 144 & 13335 & Cloudflare, Inc. \\
+6 & 141.101.75.34 & 118 & 13335 & Cloudflare, Inc. \\
+7 & 172.71.93.209 & 118 & 13335 & Cloudflare, Inc. \\
+8 & 162.159.112.71 & 116 & 13335 & Cloudflare, Inc. \\
+9 & 69.10.36.54 & 115 & 19318 & Interserver, Inc \\
+10 & 104.23.167.72 & 113 & 13335 & Cloudflare, Inc. \\
+\hline\n\end{tabular}\n\caption{Top 5 requestors during Bright Data.}\n\label{tab:top5-bright-data}\n\end{table}\n\n

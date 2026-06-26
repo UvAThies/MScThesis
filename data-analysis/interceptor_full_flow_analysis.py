@@ -246,7 +246,7 @@ dns_query_values = [dns_queries_per_day[d] for d in days]
 tls_values = [tls_flows_per_day[d] / (1024**3) for d in days]
 traffic_values = [bytes_per_day[d] / (1024**3) for d in days]
 ratio_values = [
-    (bytes_up_per_day[d] / bytes_down_per_day[d]) if bytes_down_per_day[d] > 0 else 0
+    (bytes_down_per_day[d] / bytes_up_per_day[d]) if bytes_up_per_day[d] > 0 else 0
     for d in days
 ]
 
@@ -301,12 +301,12 @@ ax2.plot(
     marker="s",
     linestyle="--",
     color="purple",
-    label="Upload/Download ratio",
+    label="Download/Upload ratio",
 )
-ax2.set_ylabel("Upload/Download ratio", color="purple")
+ax2.set_ylabel("Download/Upload ratio", color="purple")
 ax2.tick_params(axis="y", labelcolor="purple")
 
-plt.title("Traffic volume and upload/download ratio over time")
+plt.title("Traffic volume and download/upload ratio over time")
 fig.autofmt_xdate()
 fig.tight_layout()
 plt.savefig("output/traffic_and_ratio_over_time.png", dpi=300, bbox_inches="tight")
